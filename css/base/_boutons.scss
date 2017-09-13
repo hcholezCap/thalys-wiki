@@ -1,0 +1,84 @@
+/*
+* Boutons 
+* Hélène CHOLEZ
+* 5 Septembre 2017
+*/
+
+.btn-principal,
+.btn-secondary,
+.btn-commercial {
+  height: 52px;
+  border: 0 none;
+  padding: 0 30px;
+  border-radius: 5px;
+  color: $txt-btn;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  transition: background-color 0.2s ease-out;
+  font-family: $font-book;
+  
+  @media #{$scr-xs} {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    font-size: 2rem;
+    height: 6.2rem;
+  }
+}
+
+.btn-principal {
+  background-color: $bg-btn-principal;
+  
+  &:hover,
+  &:focus {
+    background-color: $bg-btn-principal-hover;
+  }
+}
+
+.btn-secondary {
+  color: $txt-btn-secondaire;
+  background-color: $bg-btn-secondary;
+  border: 1px solid  $border-btn-secondary;
+  
+  &:hover,
+  &:focus {
+    background-color: $bg-btn-secondary-hover;
+  }
+}
+
+.btn-commercial {
+  background-color: $bg-btn-commercial;
+  
+  &:hover,
+  &:focus {
+    background-color: $bg-btn-commercial-hover;
+  }
+}
+
+.link-list,
+.link-only {
+  color: $txt-link-only;
+  font-size: 1.4rem;
+  transition: color 0.2s ease-out;
+  font-family: $font-book;
+  
+  @media #{$scr-xs} {
+    font-size: 2rem;
+  }
+  
+  &:hover,
+  &:focus {
+    color: $txt-link-only-hover;
+  }
+}
+
+.link-only {
+  text-decoration: underline;
+}
+
+.link-list {
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}

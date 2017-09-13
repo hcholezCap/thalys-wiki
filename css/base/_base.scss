@@ -1,0 +1,56 @@
+/*
+* Boutons 
+* Hélène CHOLEZ
+* 5 Septembre 2017
+*/
+
+body {
+  font-family: $font-book;
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-family: $font-medium;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  
+  @media #{$scr-xs-sm} {
+    font-size: 4rem;
+  }
+}
+
+h1 {
+  &.title-light {
+    font-family: $font-book;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+}
+
+h2 {
+  font-family: $font-book;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  
+  @media #{$scr-xs-sm} {
+    font-size: 3rem;
+  }
+}
+
+h3 {
+  font-family: $font-book;
+  font-size: 2.4rem;
+  
+  @media #{$scr-xs-sm} {
+    font-size: 2.4rem;
+  }
+}
+
+h4 {
+  font-family: $font-medium;
+  font-size: 1.6rem;
+  
+  @media #{$scr-xs-sm} {
+    font-size: 2rem;
+  }
+}

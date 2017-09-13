@@ -1,0 +1,26 @@
+/* ================================================================== */
+/* This file has a mobile-to-tablet, and tablet-to-desktop breakpoint */
+/* ================================================================== */
+
+@include unsemantic-grid-placeholders;
+@include unsemantic-grid-base(small-mobile, mobile, tablet, desktop);
+
+@media (max-width: $media-xs-max) {
+  @include unsemantic-grid-placeholders(small-mobile);
+  @include unsemantic-grid-scoped(small-mobile);
+}
+
+@media (min-width: $media-sm-min) and (max-width: $media-sm-max) {
+  @include unsemantic-grid-placeholders(tablet);
+  @include unsemantic-grid-scoped(tablet);
+}
+
+@media (min-width: $media-md-min) and (max-width: $media-md-max) {
+  @include unsemantic-grid-placeholders(desktop);
+  @include unsemantic-grid-scoped(desktop);
+}
+
+@media (min-width: $media-lg-min) {
+  @include unsemantic-grid-placeholders(desktop);
+  @include unsemantic-grid-scoped(desktop);
+}

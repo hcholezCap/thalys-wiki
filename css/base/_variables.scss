@@ -1,0 +1,71 @@
+/*
+* Variables
+* Hélène CHOLEZ
+* 5 Septembre 2017
+*/
+
+
+//COULEURS PRINCIPALES
+$rouge:                            #BF2235;
+$orange:                           #EC4E00;
+$violet:                           #E8E2EF;
+$noir:                             #000;
+$gris-fonce:                       #E0E0E0;
+$gris-clair:                       #F2F2F2;
+
+$rouge-fonce:                      #A82033;
+$orange-fonce:                     #D94D08;
+$blanc:                            #FFF;
+$gris-bordure:                     #B3B3B3;
+
+
+
+//Pour les boutons et liens
+$txt-btn:                          $blanc;
+$bg-btn-principal:                 $rouge;
+$bg-btn-principal-hover:           $rouge-fonce;
+$txt-btn-secondaire:               $rouge;
+$bg-btn-secondary:                 $blanc;
+$border-btn-secondary:             $rouge;
+$bg-btn-secondary-hover:           $gris-clair;
+$bg-btn-commercial:                $orange;
+$bg-btn-commercial-hover:          $orange-fonce;
+$txt-link-only:                    $noir;
+$txt-link-only-hover:              $rouge;
+
+//Elements du formulaire
+$border-btn-radio:                 $gris-fonce;
+$border-btn-checkbox:              $gris-fonce;
+$color-check:                      #09ad7e;
+$border-list-select:               $gris-fonce;
+$bg-list-select:                   $blanc;
+$bg-list-select-active:            $rouge;
+$txt-list-select-active:           $blanc;
+$border-input:                     $gris-bordure;
+$txt-input:                        $noir;
+$border-error:                     $rouge;
+$txt-error:                        $rouge;
+$bg-error:                         $rouge;
+$txt-error-white:                  $blanc;
+
+//Fonts
+$din-condensed:                    'DinCondensedBold',  Helvetica, sans-serif;
+$font-bold:                        'GothamNarrow-Bold',  Helvetica, sans-serif;
+$font-book:                        'GothamNarrow-Book',  Helvetica, sans-serif;
+$font-light:                       'GothamNarrow-Light',  Helvetica, sans-serif;
+$font-medium:                      'GothamNarrow-Medium',  Helvetica, sans-serif;
+
+
+//Media Quary
+$scr-xs:                           "screen and (max-width:747px)";
+$scr-sm:                           "screen and (min-width:748px) and (max-width:959px)";
+$scr-md:                           "screen and (min-width:960px) and (max-width:1180px)";
+$scr-lg:                           "screen and (min-width:1181px)";
+
+$scr-xs-sm:                        "screen and (max-width:959px)";
+$scr-sm-md:                        "screen and (min-width:748px) and (max-width:1180px)";
+$scr-md-lg:                        "screen and (min-width:959px)";
+
+$scr-not-xs:                       "screen and (min-width:747px)";
+$scr-not-lg:                       "screen and (max-width:1180px)";
+
